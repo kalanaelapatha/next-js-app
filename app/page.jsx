@@ -1,5 +1,6 @@
 import React from "react";
 
+import Feed from "@components/Feed";
 const Home = () => {
   return (
     <section className="w-full flex-center flex-col">
@@ -12,6 +13,7 @@ const Home = () => {
         This is the test next application which created to learn basic syntac
         and behavior of the NextJS
       </p>
+      <Feed />
     </section>
   );
 };
